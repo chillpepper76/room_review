@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>자취방 리뷰 사이트</title>
-    <link rel="stylesheet" href=../style/styles.css>
+    <link rel="stylesheet" href=../style/Header.css>
+    <link rel="stylesheet" href=../style/Singlelargebutton.css>
 </head>
 <body>
     <div class="container">
@@ -12,24 +13,27 @@
             <h1>자취방 리뷰 사이트</h1>
             <p>학교 학생들만 리뷰 조회 및 작성이 가능합니다.</p>
         </div>
-        <div class="form-container">
-            <div class="form-group">
-                <input type="email" id="email" name="email" placeholder="abcd123@knue.ac.kr">
+        <div class="singlelargebutton">
+            <div class="form-container">
+                <div class="form-group">
+                    <label for="email">이메일</label>
+                    <input type="email" id="email" name="email" placeholder="abcd123@knue.ac.kr">
+                </div>
+                <div class="form-group">
+                    <label for="password">비밀번호</label>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                </div>
+                <div class="login-button">
+                    <button type="submit">로그인</button>
+                </div>
+                <div class="form-links">
+                    <a href="#">비밀번호 찾기</a>
+                    <p>계정을 만들고 싶다면?</p>
+                </div>
+                <div class="form-group">
+                    <button type="signup">회원가입</button>
+                </div>
             </div>
-            <div class="form-group">
-                <input type="password" id="password" name="password" placeholder="Password">
-            </div>
-            <div class="form-group">
-                <button type="submit">로그인</button>
-            </div>
-            <div class="form-links">
-                <a href="#">비밀번호 찾기</a>
-                <p>계정을 만들고 싶다면?</p>
-                <a href="#">회원가입</a>
-            </div>
-        </div>
-        <div class="footer">
-            <p>&copy; 2024 자취방 리뷰 사이트</p>
         </div>
     </div>
 </body>

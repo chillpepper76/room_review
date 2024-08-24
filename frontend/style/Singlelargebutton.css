@@ -1,0 +1,106 @@
+.fieldset{
+    width: Fill (412px)px;
+    height: Fixed (489px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 8px;
+    opacity: 0px;
+    
+}
+
+
+.form-container {
+    width: Fixed (380px);
+    height: Fixed (424px);
+    top: 504px;
+    left: 99px;
+    padding: 20px;
+    border-top: 1px solid var(--Border-Default-Default, #D9D9D9); /* 테두리 색상과 두께 설정 */
+    border-radius: 10px; /* 테두리 둥글기 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+    background-color: white; /* 배경색 추가 */
+    gap: var(--sds-size-space-600);
+    border-radius: var(--sds-size-radius-200);
+    border: var(--sds-size-stroke-border);
+    opacity: 0px;
+
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.login-button button  {
+    
+    width: 100%;
+    Height: Hug (40px);
+    padding: 12px;
+    background-color: #4358DF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer; 
+
+}
+
+.form-group button  {
+    
+    width: Fixed (150px)px;
+    Height: Hug (40px);
+    padding: 12px;
+    background-color: #4358DF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    top: 858px;
+    left:123px;
+    cursor: pointer;
+
+}
+
+.container button:hover {
+    background-color: #394dcc;
+}
+
+.form-links {
+    text-align: left; /* 왼쪽 정렬 */
+    margin-top: 10px;
+    font-family: var(--sds-typography-body-font-family);
+    font-size: var(--sds-typography-body-size-medium);
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+}
+
+.form-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-links p {
+    color: black;
+    width: 332px;
+    height: 22px;
+    top: 825px;
+    left: 123px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.form-links a:hover {
+    text-decoration: underline;
+}
